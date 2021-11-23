@@ -1,0 +1,74 @@
+.float  
+{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px; 
+    
+ }  
+ .lemon 
+ {  
+    background-color: aliceblue;
+    border-top-left-radius: 50%; 
+	border-top-left-radius: 30px; 
+	border-bottom-right-radius: 50%; 
+	border-bottom-right-radius: 30px; 
+	font-size: 18px;
+	
+ }
+
+ 
+.textbox
+{
+    background-color: rebeccapurple; 
+} 
+.round
+{  
+    border-radius: 5px ;
+    
+    width : 100% ;  
+    height :5px ;
+} 
+.canvasfloat
+{
+    border: 5px solid white; 
+    border-radius: 20px; 
+    animation-name: example;
+     animation-duration :4s ;
+    margin-top : 50px ; 
+    animation-iteration-count: infinite;   
+    position: center;
+} 
+  
+.copy_right_footer 
+{ 
+     
+    position : fixed ; 
+color: azure ;  
+bottom : 0 ; 
+ width : 100%;
+ line-height : 3 ;
+  text-align: center ;   
+
+}
+@keyframes floating 
+ { 
+   0% { transform: translate(0,  0px); }
+   50%  { transform: translate(0, 7px); }
+   100%   { transform: translate(0, -0px); }  
+}   
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38 px grey;} 
+    to {box-shadow: 1px 1px 38 px white;}
+}  
+.button_hover 
+{
+    background-color: rebeccapurple; 
+} 
+.button_hover:hover 
+{
+    background-color : linearGradient(blue , rgb(121, 6, 252))
+}
