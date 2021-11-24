@@ -74,3 +74,13 @@ bottom : 0 ;
 {
     background-color : linearGradient(blue , rgb(121, 6, 252))
 }
+.p5canvas
+{
+    border: 5px solid white; 
+    border-radius: 20px; 
+    animation-name: example;
+     animation-duration :4s ;
+    margin-top : 50px ; 
+    animation-iteration-count: infinite;   
+    position: center;
+} 
