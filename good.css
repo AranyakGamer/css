@@ -74,7 +74,7 @@ bottom : 0 ;
 {
     background-color : linearGradient(blue , rgb(121, 6, 252))
 }
-.p5canvas
+.p5Canvas
 {
     border: 5px solid white; 
     border-radius: 20px; 
