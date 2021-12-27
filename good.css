@@ -15,8 +15,9 @@
 	border-top-left-radius: 30px; 
 	border-bottom-right-radius: 50%; 
 	border-bottom-right-radius: 30px; 
-	font-size: 18px;
-	
+	font-size: 18px; 
+	 height : none ;
+	width:none ; 
  }
 
  
@@ -24,7 +25,8 @@
 {   
        text-align:center ; 
  	font-size : 15px ; 
-    background-color: rebeccapurple; 
+    background-color: linear-gradient( pink , purple) ;
+	    box-shadow : inset 10px 10px 20px 10ppx linear-gradient(pink , purple)
 } 
 .round
 {  
